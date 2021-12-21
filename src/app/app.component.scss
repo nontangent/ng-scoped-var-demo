@@ -1,9 +1,9 @@
-@use '~scoped-var/index' as *;
+// @use '~scoped-var/index' as *;
 
-:host {
-  @include var(--color, red);
-}
+// :host {
+//   @include var(--color, red);
+// }
 
-:host {
-  color: var(--color);
-}
+// :host {
+//   color: var(--color);
+// }
