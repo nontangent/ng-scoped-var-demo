@@ -1,0 +1,9 @@
+@use '~scoped-var/index' as *;
+
+:host {
+  @include var(--color, red);
+}
+
+:host {
+  color: var(--color);
+}
